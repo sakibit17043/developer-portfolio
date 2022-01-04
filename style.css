@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name{
     color:violet;
 }
@@ -15,7 +18,7 @@ h1{
 .header img{
     width: 80%;
 }
-section{
+.container{
     display: flex;
 }
 .button{
@@ -38,4 +41,44 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.cards{
+    display: flex;
+    
+}
+.card{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 40px;
+    padding-left: 10px;
+}
+.card h3{
+    color: blue;
+}
+.experience{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+
+
+}
+footer p{
+    text-align: center;
+    
+}
+#left{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#right{
+    border-left: 7px solid;
+    border-image:linear-gradient(violet,pink);
+    border-image-slice: 1;
+
 }
